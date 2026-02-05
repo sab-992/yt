@@ -23,7 +23,7 @@ The developer assumes **no liability** for any misuse of this software or for an
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sab-992/youtube-downloader.git
+git clone https://github.com/sab-992/yt.git
 cd youtube-downloader
 ```
 
