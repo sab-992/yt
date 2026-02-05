@@ -4,9 +4,11 @@ from src.video.video import Video
 
 
 VIDEO_URL = ""
+RESOLUTION = "1920x1080" # 1920x1080 or 1080p works !
+FPS: int = 60 # Enter a number or None if not available for the video.
 
 def main():
-    video = Video(VIDEO_URL, "1920x1080", 60)
+    video = Video(url=VIDEO_URL, resolution="1920x1080", fps=FPS)
 
     threads = Threads()
     threads.start_all()
