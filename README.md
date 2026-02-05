@@ -1,6 +1,9 @@
 # Youtube-downloader
 A personal project built for me to learn about stream handling, video conversion, and working with external APIs. For educational use only.
 
+It is a multithreaded way to download videos from youtube.
+The output WILL be separated into two files (audio and video/frames).
+
 # Disclaimer
 
 This project is intended for **educational and personal use only**. It was created as a learning exercise to explore concepts such as stream handling, format conversion, and API interaction.
