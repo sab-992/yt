@@ -10,3 +10,29 @@ This tool is **not intended** to be used to download, convert, or reproduce any 
 The developer assumes **no liability** for any misuse of this software or for any legal consequences arising from its use in violation of copyright law or platform terms of service.
 
 **Users are responsible** for ensuring that their use of this tool complies with all applicable laws and regulations in their jurisdiction, as well as the Terms of Service of any platforms they interact with.
+
+## Getting Started
+### Prerequisites
+
+- Python 3.13+
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/sab-992/youtube-downloader.git
+cd youtube-downloader
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Change the VIDEO_URL, RESOLUTION and FPS constants in the **"main.py"** file and run with:
+```bash
+python main.py
+```
+
+### View Logs
+If any error happened during, they can be logged by enabling the setting in the utils/settings.py file. The logs will be saved in detail the utils/logs/details folder or simply in the utils/logs/logs.txt file.
