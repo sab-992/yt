@@ -10,7 +10,7 @@ FPS: int = 60 # Enter a number or None if not available for the video.
 
 def main():
     try:
-        video = Video(url=VIDEO_URL, resolution="1920x1080", fps=FPS)
+        video = Video(url=VIDEO_URL, resolution=RESOLUTION, fps=FPS)
 
         threads = Threads()
         threads.start_all()
